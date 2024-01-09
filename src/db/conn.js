@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
-const DB = 'mongodb://localhost/appointmentdb';
-// const DB = 'mongodb+srv://zafar-123:zafar-123@cluster0.mcmvcmw.mongodb.net/appointmentdb?retryWrites=true&w=majority';
+// const DB = 'mongodb://localhost/appointmentdb';
+const DB = 'mongodb+srv://zafar-123:zafar-123@cluster0.mcmvcmw.mongodb.net/appointmentdb?retryWrites=true&w=majority';
 
 mongoose
   .connect(DB, {
